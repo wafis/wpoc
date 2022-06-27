@@ -6,6 +6,10 @@
     "api-interfaces": "libs/api-interfaces",
     "firestore": "libs/firestore",
     "issue-tracker": "apps/issue-tracker",
-    "issue-tracker-e2e": "apps/issue-tracker-e2e"
+    "issue-tracker-data-access": "libs/issue-tracker/data-access",
+    "issue-tracker-e2e": "apps/issue-tracker-e2e",
+    "issue-tracker-feature": "libs/issue-tracker/feature",
+    "issue-tracker-ui": "libs/issue-tracker/ui",
+    "issue-tracker-utils": "libs/issue-tracker/utils"
   }
 }

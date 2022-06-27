@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/issue-tracker/data-access/src",
+  "prefix": "wpoc",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/issue-tracker/data-access"],
+      "options": {
+        "jestConfig": "libs/issue-tracker/data-access/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/issue-tracker/data-access/**/*.ts",
+          "libs/issue-tracker/data-access/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

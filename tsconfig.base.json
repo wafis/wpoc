@@ -16,7 +16,15 @@
     "baseUrl": ".",
     "paths": {
       "@wpoc/api-interfaces": ["libs/api-interfaces/src/index.ts"],
-      "@wpoc/firestore": ["libs/firestore/src/index.ts"]
+      "@wpoc/firestore": ["libs/firestore/src/index.ts"],
+      "@wpoc/issue-tracker/data-access": [
+        "libs/issue-tracker/data-access/src/index.ts"
+      ],
+      "@wpoc/issue-tracker/feature": [
+        "libs/issue-tracker/feature/src/index.ts"
+      ],
+      "@wpoc/issue-tracker/ui": ["libs/issue-tracker/ui/src/index.ts"],
+      "@wpoc/issue-tracker/utils": ["libs/issue-tracker/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
